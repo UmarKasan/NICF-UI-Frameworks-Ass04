@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { car } from './car';
 
 @Component({
   selector: 'app-car-on-sale',
