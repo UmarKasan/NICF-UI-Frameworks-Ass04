@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+}

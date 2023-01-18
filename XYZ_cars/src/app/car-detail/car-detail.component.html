@@ -1,0 +1,11 @@
+<div class="container d-flex m-3" *ngIf="car">
+    <img src="{{ car.image_url }}" alt="car" class="img-fluid rounded-square">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <h2><strong>Make: </strong> {{ car.make | uppercase }}</h2>
+        <h3><strong>Model: </strong> {{ car.model }}</h3>
+        <h4><strong>Year: </strong> {{ car.year }}</h4>
+        <p class="text-wrap p-5">{{ car.description }}</p>
+    </div>
+</div>
+<br>
+<button type="button" (click)="goBack()">Back</button>

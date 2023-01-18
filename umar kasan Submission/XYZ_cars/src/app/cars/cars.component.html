@@ -1,0 +1,9 @@
+<!-- <h2 class="container-fluid m-3 text-center">Cars List</h2> -->
+<ul class="cars mt-3">
+    <li *ngFor="let car of cars" routerLink="/detail/{{car.id}}">
+        <button class="container-fluid" type="button">
+            <span class="make">{{ car.make }}</span>
+            <span class="model"> {{ car.model }}</span>
+        </button>
+    </li>
+</ul>
